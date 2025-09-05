@@ -1,0 +1,16 @@
+{
+  "joint_map": {
+    "index_proximal_joint": {"finger": "index", "joint_idx": "MCP"},
+    "index_intermediate_joint": {"finger": "index", "joint_idx": "PIP"},
+    "middle_proximal_joint": {"finger": "middle", "joint_idx": "MCP"},
+    "middle_intermediate_joint": {"finger": "middle", "joint_idx": "PIP"},
+    "ring_proximal_joint": {"finger": "ring", "joint_idx": "MCP"},
+    "ring_intermediate_joint": {"finger": "ring", "joint_idx": "PIP"},
+    "pinky_proximal_joint": {"finger": "little", "joint_idx": "MCP"},
+    "pinky_intermediate_joint": {"finger": "little", "joint_idx": "PIP"},
+    "thumb_proximal_yaw_joint": {"finger": "thumb_1", "joint_idx": "MCP"},
+    "thumb_proximal_pitch_joint": {"finger": "thumb_1", "joint_idx": "PIP"},
+    "thumb_intermediate_joint": {"finger": "thumb_1", "joint_idx": "DIP"},
+    "thumb_distal_joint": {"finger": "thumb_2", "joint_idx": "CMC"}
+  }
+}

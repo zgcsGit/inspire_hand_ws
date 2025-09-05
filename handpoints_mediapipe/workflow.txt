@@ -1,0 +1,2 @@
+1. run venv_mediapipe
+source ~/venv_mediapipe/bin/activate

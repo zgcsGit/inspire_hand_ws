@@ -1,0 +1,28 @@
+1. run env 
+source ~/dex_env/bin/activate
+
+
+ros2 run inspire_retargeting detect_from_csv \
+  --robot-name inspire \
+  --points-csv hand_3d_points.csv \
+  --retargeting-type dexpilot \
+  --hand-type left \
+  --output-path data/inspire_joints.pkl
+  
+  
+  
+python3 -m inspire_retargeting.detect_from_csv \
+  --robot-name inspire \
+  --points-csv hand_3d_points.csv \
+  --retargeting-type dexpilot \
+  --hand-type left \
+  --output-path inspire_joints.pkl
+  
+  
+ros2 run inspire_retargeting pub_csv \
+  --csv-path hand_3d_points.csv \
+  --robot-name inspire \
+  --retargeting-type dexpilot \
+  --hand-type left \
+  --publish-hz 30.0
+
